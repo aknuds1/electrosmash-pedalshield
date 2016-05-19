@@ -107,9 +107,6 @@ Before powering it up, check these 3 ticks:
 2. The polarized components are placed correctly: diodes and electrolytic caps.
 3. The ICs are not swapped or wrongly placed.
 
-Finally the plastic cover can be installed together with
-4 screws + nuts. Optionally a plastic spacer can be cut
-to separate the boards and reduce the mechanic
-stress.
+Finally the plastic cover can be installed together with 4 screws + nuts. Optionally a plastic spacer can be cut to separate the boards and reduce the mechanic stress.
 
 The plastic knobs and the shaft+nut for the footswitch are the last parts to be mounted.
