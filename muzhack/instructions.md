@@ -46,6 +46,8 @@ Keep in short hand the PCB plan and the Bill of Materials:
 
 There are 19 resistors and 4 diodes to be placed.
 
+![Soldering resistors and diodes](https://aknuds1.github.io/electrosmash-pedalshield/images/pedalshield-soldering-resistors.png)
+
 * 2.a Solder the 100KΩ resistors (12 units)
 * 2.b Solder the 4.7KΩ res. (3 units) and the 10MΩ res. (2 units)
 * 2.c Solder the 15817 diodes (4 units), the 1KΩ res. (2 units) and the 50KΩ res. (1 unit)
@@ -59,6 +61,8 @@ get hot very fast when soldering, so try to do it carefully and wait between eac
 ## Step 3 – Soldering the Capacitors.
 
 There are 11 film/ceramic and 5 electrolytic caps.
+
+![Soldering capacitors](https://aknuds1.github.io/electrosmash-pedalshield/images/pedalshield-soldering-capacitors.png)
 
 * 3.a Solder the 100nF capacitors (6 units)
 * 3.b Solder the 270pF capacitors (5 units)
@@ -75,6 +79,8 @@ round hole. The positive hole is always square-shaped and it is marked with a + 
 The last components to be placed are the dip sockets (3), connectors (5), trimmer, potentiometers (3),
 switches (2), jacks (2) and the footswitch:
 
+![Soldering the big components](https://aknuds1.github.io/electrosmash-pedalshield/images/pedalshield-soldering-big.png)
+
 * 4.a Solder the 8pin sockets (3 units), the trimmer res. and the 8pins connectors (5 units)
 * 4.b Solder the potentiometers (3 units), switches (2 units), jacks (2 units) and footswitch.
 
@@ -89,11 +95,15 @@ The short lead (cathode) goes to the flat side of the diode mark.
 * The 40 pin stripe has to be cut in 5 segments of 8 pins each. You can use a cutter to carve a groove every 8 pins and then just bend it carefully to break it. One of the segments needs to be cut like the side photo to avoid collision with the output jack.
 
 ## Step 5 – Checking Out the Job Done.
-After this 5 stages you will have a mounted board exactly like the one shown below:
-Double check your PCB with the model component by component.
-Before power it up, check this 3 ticks:
+After these 5 stages you will have a mounted board exactly like the one shown below:
 
-1. Visual inspection of the PCB bottom, there is no short circuits or long uncut leads.
+![Finished product](https://aknuds1.github.io/electrosmash-pedalshield/images/pedalshield-finished.png)
+
+Double check your PCB with the model component by component.
+
+Before powering it up, check these 3 ticks:
+
+1. Visual inspection of the PCB bottom, there are no short circuits or long uncut leads.
 2. The polarized components are placed correctly: diodes and electrolytic caps.
 3. The ICs are not swapped or wrongly placed.
 
