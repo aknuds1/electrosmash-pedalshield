@@ -45,19 +45,21 @@ Keep in short hand the PCB plan and the Bill of Materials:
 ## Step 2 – Soldering Resistors and Diodes.
 
 There are 19 resistors and 4 diodes to be placed.
+
 * 2.a Solder the 100KΩ resistors (12 units)
 * 2.b Solder the 4.7KΩ res. (3 units) and the 10MΩ res. (2 units)
 * 2.c Solder the 15817 diodes (4 units), the 1KΩ res. (2 units) and the 50KΩ res. (1 unit)
 
 ### Tips
 
-* In the step 3.a pay attention to the diodes polarity, there is a line indicating the correct position. They
+* In step 3.a pay attention to the diodes polarity, there is a line indicating the correct position. They
 get hot very fast when soldering, so try to do it carefully and wait between each solder point.
 * In order to solder the components, bend the leads, introduce them in the footprint and once soldered cut the excess of lead as short as possible to avoid short circuits.
 
 ## Step 3 – Soldering the Capacitors.
 
 There are 11 film/ceramic and 5 electrolytic caps.
+
 * 3.a Solder the 100nF capacitors (6 units)
 * 3.b Solder the 270pF capacitors (5 units)
 * 3.c Solder the electrolytic capacitors 4.7uF, 1uF, 10uF (2 units) and 47uF.
@@ -67,7 +69,6 @@ There are 11 film/ceramic and 5 electrolytic caps.
 * Be careful with the electrolytic caps polarity, the negative lead (the short one) has to be placed in the
 round hole. The positive hole is always square-shaped and it is marked with a + symbol.
 * The Capacitors C16, C17 and the jumper JP1 are optionals and do not need to be mounted.
-www.ElectroSmash.com/pedalSHIELD
 
 ## Step 4 – Soldering the Big Components.
 
@@ -85,8 +86,7 @@ The short lead (cathode) goes to the flat side of the diode mark.
 
 ### Tips
 * Be careful soldering the big components perpendicularly because they tend to be slightly tilted.
-* The 40 pin stripe has to be cut in 5 segments of 8 pins each.
-You can use a cutter to carve a groove every 8 pins and then just bend it carefully to break it. One of the segments needs to be cut like the side photo to avoid collision with the output jack.
+* The 40 pin stripe has to be cut in 5 segments of 8 pins each. You can use a cutter to carve a groove every 8 pins and then just bend it carefully to break it. One of the segments needs to be cut like the side photo to avoid collision with the output jack.
 
 ## Step 5 – Checking Out the Job Done.
 After this 5 stages you will have a mounted board exactly like the one shown below:
