@@ -6,6 +6,7 @@ build it successfully.
 
 You need a solder iron, lead and cutting pliers. Additionally cutter, scissors and pliers are convenient.
 The PCB has solder mask and plated holes, so it is very easy to solder with any 15-30W cheap solder iron.
+
 Keep in short hand the PCB plan and the Bill of Materials:
 
 ### pedalSHIELD Bill of Materials
