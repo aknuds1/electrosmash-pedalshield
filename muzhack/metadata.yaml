@@ -1,10 +1,10 @@
-projectId: befaco-spring-reverb
-title: Befaco Spring Reverb
+projectId: electrosmash-pedalshield
+title: ElectroSmash pedalSHIELD
 tags:
-  - befaco
-  - reverb
-  - eurorack
-  - modular
+  - electrosmash
+  - pedalshield
+  - guitar
+  - pedal
   - effect
   - kit
-licenseId: cc-by-sa-3.0
+licenseId: cc-by-3.0
