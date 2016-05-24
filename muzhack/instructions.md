@@ -1,5 +1,5 @@
 # How to Build pedalSHIELD
-**Please note that this is an unofficial project page, the official one is [here](http://www.electrosmash.com/pedalshield).***
+**Please note that this is an unofficial project page, the official one is [here](http://www.electrosmash.com/pedalshield).**
 
 This is a 5 steps guide to build pedalSHIELD. With all the materials on hand it takes around 2 hours to build it successfully.
 
