@@ -5,6 +5,7 @@ pedalSHIELD DUE is a programmable Arduino Open Source & Open Hardware guitar ped
 
 It is designed to be a platform to learn about digital signal processing, effects, synthesizers and experiment without deep knowledge in electronics or programming.
 
+[!youtube](COPaqJBekBQ)
 ![Parts](https://aknuds1.github.io/electrosmash-pedalshield/images/pedalSHIELD-parts-small.jpg)
 
 ## How Does it Work?
