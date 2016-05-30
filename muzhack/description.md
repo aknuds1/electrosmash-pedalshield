@@ -82,6 +82,10 @@ You can check all the codes and more examples at the [pedalSHIELD Software Forum
 
 You can [listen in SoundCloud](https://soundcloud.com/electro-smash) to all the already programmed effects (delay, reverb, echo, metronome, tremolo, distortion, etc...).
 
+[!soundcloud](122498414)
+[!soundcloud](122504367)
+[!soundcloud](122498414)
+
 ## pedalSHIELD Hardware Design
 
 ### Specifications:
