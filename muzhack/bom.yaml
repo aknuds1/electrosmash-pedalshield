@@ -1,12 +1,12 @@
 Capacitors:
   -
     value: 270p
+    quantity: 5
     references: [C2, C5, C8, C9, C12]
     mouserNo: 594-D271K20Y5PH63L6R
     manufacturerNo: D271K20Y5PH63L6R
     description: Ceramic Disc Capacitors .25LS 270PF 100VDC 10%
     mouserUrl: https://eu.mouser.com/Search/ProductDetail.aspx?R=D271K20Y5PH63L6Rvirtualkey59420000virtualkey594-D271K20Y5PH63L6R
-    quantity: 5
   -
     value: 0.1u
     references: [C1, C4, C6, C7, C10, C11]
