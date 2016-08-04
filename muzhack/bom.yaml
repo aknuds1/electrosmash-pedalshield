@@ -50,12 +50,12 @@ Capacitors:
 Resistors:
   -
     value: 1K
+    quantity: 2
     references: [R3, R21]
     mouserNo: 660-MF1/4DC1001F
     manufacturerNo: MF1/4DC1001F
     description: Metal Film Resistors - Through Hole 1K 1% 100PPM
     mouserUrl: https://eu.mouser.com/Search/ProductDetail.aspx?R=MF1%2f4DC1001Fvirtualkey66000000virtualkey660-MF1%2f4DC1001F
-    quantity: 2
   -
     value: 4.7K
     references: [R5, R9, R10]
@@ -115,12 +115,12 @@ Resistors:
 Others:
   -
     value: 1N5817
+    quantity: 4
     references: [D1, D2, D3, D4]
     mouserNo: 512-1N5817
     manufacturerNo: 1N5817
     description: Schottky Diodes & Rectifiers Vr/20V Io/1A T/R
     mouserUrl: https://eu.mouser.com/Search/ProductDetail.aspx?R=1N5817virtualkey51210000virtualkey512-1N5817
-    quantity: 4
   -
     value: LED
     references: [D5]
@@ -148,8 +148,8 @@ Others:
 Connectors:
   -
     value: CONN_8pins
-    references: [CONN2, CONN3, CONN4, CONN5, CONN6]
     quantity: 5
+    references: [CONN2, CONN3, CONN4, CONN5, CONN6]
   -
     value: JACKS
     references: [JI, J2]
@@ -161,12 +161,12 @@ Connectors:
 ICs:
   -
     value: TL072
+    quantity: 2
     references: [U1, U2]
     mouserNo: 595-TL072IPE4
     manufacturerNo: TL072IPE4
     description: Operational Amplifiers - Op Amps Dual Low-Noise JFET-Input
     mouserUrl: https://eu.mouser.com/Search/ProductDetail.aspx?R=TL072IPE4virtualkey59500000virtualkey595-TL072IPE4
-    quantity: 2
   -
     value: TC1044
     references: [U3]
@@ -186,9 +186,9 @@ ICs:
 Mechanic:
   -
     value: pedalSHIELD PCB
-    description: Dual Layer 2x4” PCB with soldermask.
     quantity: 1
+    description: Dual Layer 2x4” PCB with soldermask.
   -
     value: Plastic Protector
-    description: 3D printed plastic cover protector.
     quantity: 1
+    description: 3D printed plastic cover protector.
