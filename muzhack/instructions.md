@@ -1,13 +1,16 @@
 # How to Build pedalSHIELD
 **Please note that this is an unofficial project page, the official one is [here](http://www.electrosmash.com/pedalshield).**
 
-This is a 5 steps guide to build pedalSHIELD. With all the materials on hand it takes around 2 hours to build it successfully.
+This is a 5 step guide to build pedalSHIELD. With all the materials at hand it takes around
+2 hours to build it successfully.
 
 ## Step 1 – Prepare the Materials.
 
-You need a solder iron, lead and cutting pliers. Additionally cutter, scissors and pliers are convenient. The PCB has solder mask and plated holes, so it is very easy to solder with any 15-30W cheap solder iron.
+You need a solder iron, lead and cutting pliers. Additionally cutter, scissors and pliers are
+convenient. The PCB has solder mask and plated holes, so it is very easy to solder with any
+15-30W cheap solder iron.
 
-Keep in short hand the PCB plan and the Bill of Materials:
+Keep at hand the PCB plan and the Bill of Materials:
 
 ### pedalSHIELD Bill of Materials
 
@@ -54,8 +57,10 @@ There are 19 resistors and 4 diodes to be placed.
 
 ### Tips
 
-* In step 3.a pay attention to the diodes polarity, there is a line indicating the correct position. They get hot very fast when soldering, so try to do it carefully and wait between each solder point.
-* In order to solder the components, bend the leads, introduce them in the footprint and once soldered cut the excess of lead as short as possible to avoid short circuits.
+* In step 3.a pay attention to the diodes polarity, there is a line indicating the correct position.
+They get hot very fast when soldering, so try to do it carefully and wait between each solder point.
+* In order to solder the components, bend the leads, introduce them in the footprint and once
+soldered cut the excess of lead as short as possible to avoid short circuits.
 
 ## Step 3 – Soldering the Capacitors.
 
@@ -69,25 +74,31 @@ There are 11 film/ceramic and 5 electrolytic caps.
 
 ### Tips
 
-* Be careful with the electrolytic caps polarity, the negative lead (the short one) has to be placed in the round hole. The positive hole is always square-shaped and it is marked with a + symbol.
+* Be careful with the electrolytic caps polarity, the negative lead (the short one) has to be
+placed in the round hole. The positive hole is always square-shaped and it is marked with a + symbol.
 * The Capacitors C16, C17 and the jumper JP1 are optionals and do not need to be mounted.
 
 ## Step 4 – Soldering the Big Components.
 
-The last components to be placed are the dip sockets (3), connectors (5), trimmer, potentiometers (3), switches (2), jacks (2) and the footswitch:
+The last components to be placed are the dip sockets (3), connectors (5), trimmer, potentiometers
+(3), switches (2), jacks (2) and the footswitch:
 
 ![Soldering the big components](https://aknuds1.github.io/electrosmash-pedalshield/images/pedalshield-soldering-big.png)
 
 * 4.a Solder the 8pin sockets (3 units), the trimmer res. and the 8pins connectors (5 units)
 * 4.b Solder the potentiometers (3 units), switches (2 units), jacks (2 units) and footswitch.
 
-When soldering the potentiometers and switches it would be good to check their positioning against the plastic cover. The cover will fit better if the cover its aligned.
+When soldering the potentiometers and switches it would be good to check their positioning
+against the plastic cover. The cover will fit better if the cover its aligned.
 
-The LED D5 is the last component to be soldered. Place the plastic cover to size the length of the leads. The short lead (cathode) goes to the flat side of the diode mark.
+The LED D5 is the last component to be soldered. Place the plastic cover to size the length of
+the leads. The short lead (cathode) goes to the flat side of the diode mark.
 
 ### Tips
 * Be careful soldering the big components perpendicularly because they tend to be slightly tilted.
-* The 40 pin stripe has to be cut in 5 segments of 8 pins each. You can use a cutter to carve a groove every 8 pins and then just bend it carefully to break it. One of the segments needs to be cut like the side photo to avoid collision with the output jack.
+* The 40 pin stripe has to be cut in 5 segments of 8 pins each. You can use a cutter to carve
+a groove every 8 pins and then just bend it carefully to break it. One of the segments needs
+to be cut like the side photo to avoid collision with the output jack.
 
 ## Step 5 – Checking Out the Job Done.
 After these 5 stages you will have a mounted board exactly like the one shown below:
@@ -102,6 +113,7 @@ Before powering it up, check these 3 ticks:
 2. The polarized components are placed correctly: diodes and electrolytic caps.
 3. The ICs are not swapped or wrongly placed.
 
-Finally the plastic cover can be installed together with 4 screws + nuts. Optionally a plastic spacer can be cut to separate the boards and reduce the mechanic stress.
+Finally the plastic cover can be installed together with 4 screws + nuts. Optionally a
+plastic spacer can be cut to separate the boards and reduce the mechanic stress.
 
 The plastic knobs and the shaft+nut for the footswitch are the last parts to be mounted.
