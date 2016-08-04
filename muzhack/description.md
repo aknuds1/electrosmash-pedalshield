@@ -1,9 +1,13 @@
 # pedalSHIELD DUE Arduino Guitar Pedal.
-**Please note that this is an unofficial project page, the official one is [here](http://www.electrosmash.com/pedalshield).**
+**Please note that this is an unofficial project page, the official one is
+[here](http://www.electrosmash.com/pedalshield).**
 
-pedalSHIELD DUE is a programmable Arduino Open Source & Open Hardware guitar pedal made for guitarists, hackers and programmers. Users can program their own effects in C/C++ or download ready effects from the [online library](http://www.electrosmash.com/forum/software-pedalshield).
+pedalSHIELD DUE is a programmable Arduino Open Source & Open Hardware guitar pedal made for
+guitarists, hackers and programmers. Users can program their own effects in C/C++ or download
+ready effects from the [online library](http://www.electrosmash.com/forum/software-pedalshield).
 
-It is designed to be a platform to learn about digital signal processing, effects, synthesizers and experiment without deep knowledge in electronics or programming.
+It is designed to be a platform to learn about digital signal processing, effects, synthesizers
+and experiment without deep knowledge in electronics or programming.
 
 [!youtube](COPaqJBekBQ)
 ![Parts](https://aknuds1.github.io/electrosmash-pedalshield/images/pedalSHIELD-parts-small.jpg)
@@ -12,20 +16,28 @@ It is designed to be a platform to learn about digital signal processing, effect
 
 The shield has three parts:
 
-* The Input Stage or Preamp: Amplifies the guitar input signal and sends it to the Arduino microcontroller to be processed.
-* Arduino Board: It does all the Digital Signal Processing (DSP) modifying the signal and adding the effect (delay, echo, distortion, volume...).
-* The Output Stage: Once the waveform is processed, the signal is taken from the Arduino DACs and prepared to be sent to the Guitar Amplifier.
-This part also includes a Summing Amplifier which is very useful for delay effects like echo or chorus.
+* The Input Stage or Preamp: Amplifies the guitar input signal and sends it to the Arduino
+microcontroller to be processed.
+* Arduino Board: It does all the Digital Signal Processing (DSP) modifying the signal and
+adding the effect (delay, echo, distortion, volume...).
+* The Output Stage: Once the waveform is processed, the signal is taken from the Arduino DACs
+and prepared to be sent to the Guitar Amplifier. This part also includes a Summing Amplifier
+which is very useful for delay effects like echo or chorus.
 
 ![Parts](https://aknuds1.github.io/electrosmash-pedalshield/images/pedalshield-arduino-guitar-pedal-diagram.jpg)
 
-pedalSHIELD uses 2 ADCs and 2 DACS in parallel in order to achieve higher bit resolution (2 x 12bits). However using only 1 DAC and 1 ADC is possible without modifications. You can check all the details in the [hardware design section](http://www.electrosmash.com/pedalshield#hw) and in the [pedalSHIELD Hardware forum](http://www.electrosmash.com/forum/hardware-pedalshield).
+pedalSHIELD uses 2 ADCs and 2 DACS in parallel in order to achieve higher bit resolution
+(2 x 12bits). However using only 1 DAC and 1 ADC is possible without modifications. You
+can check all the details in the
+[hardware design section](http://www.electrosmash.com/pedalshield#hw) and in the
+[pedalSHIELD Hardware forum](http://www.electrosmash.com/forum/hardware-pedalshield).
 
 ![View](https://aknuds1.github.io/electrosmash-pedalshield/images/pedalSHIELD-PCB-360-view-small.jpg)
 
 ## How to Program it?
 
-The shield is programmed in C/C++ using the standard free Arduino platform (Linux/Windows/Mac). All tools and programs are open source and compatible with Arduino libraries.
+The shield is programmed in C/C++ using the standard free Arduino platform (Linux/Windows/Mac).
+All tools and programs are open source and compatible with Arduino libraries.
 
 Basic knowledge of C is needed. The best way to show how to program it is showing an example pedal:
 
@@ -80,7 +92,8 @@ Basic knowledge of C is needed. The best way to show how to program it is showin
 
 You can check all the codes and more examples at the [pedalSHIELD Software Forum](http://www.electrosmash.com/forum/software-pedalshield).
 
-You can [listen in SoundCloud](https://soundcloud.com/electro-smash) to all the already programmed effects (delay, reverb, echo, metronome, tremolo, distortion, etc...).
+You can [listen in SoundCloud](https://soundcloud.com/electro-smash) to all the already
+programmed effects (delay, reverb, echo, metronome, tremolo, distortion, etc...).
 
 [!soundcloud](122503208)
 [!soundcloud](122504367)
@@ -108,16 +121,36 @@ You can [listen in SoundCloud](https://soundcloud.com/electro-smash) to all the 
   * Output Jack, 1/4 inch unbalanced, Zout=1KΩ.
   * Power supply: power taken from Arduino Due board.
 
-The design was created using [KiCad](http://www.kicad-pcb.org/), an open-source GNU free of charge electronic design CAD tool. All [schematic native files](http://www.electrosmash.com/forum/hardware-pedalshield/18-kicad-schematics-pedalshield) and [bill of materials](http://www.electrosmash.com/forum/hardware-pedalshield/17-pedalshield-bill-of-materials-and-alternatives) are public. The circuit can be broken down into 5 simpler blocks: Power Supply, Input Stage, Output Stage, User Interface and Arduino Connectors:
+The design was created using [KiCad](http://www.kicad-pcb.org/), an open-source GNU
+free of charge electronic design CAD tool. All
+[schematic native files](http://www.electrosmash.com/forum/hardware-pedalshield/18-kicad-schematics-pedalshield)
+and
+[bill of materials](http://www.electrosmash.com/forum/hardware-pedalshield/17-pedalshield-bill-of-materials-and-alternatives)
+are public. The circuit can be broken down into 5 simpler blocks: Power Supply, Input Stage,
+Output Stage, User Interface and Arduino Connectors:
 
 ![Schematic](https://aknuds1.github.io/electrosmash-pedalshield/images/pedalshield-schematic-small.png)
 
-The functionality is simple; 2 opamps will prepare the signal to be digitized and also 2 opamps will recover the signal from
-the micro controller. Two ADCs in parallel can be used to read the guitar signal, improving the bit depth (2x12bits). Furthermore, this arrange is also compatible with the ["Double Span and Digitize Signals using Two ADCs"](http://www.electrosmash.com/forum/hardware-pedalshield/22-double-span-and-digitize-signals-using-two-adcs) by placing the Jumper1.
+The functionality is simple; 2 opamps will prepare the signal to be digitized and also 2
+opamps will recover the signal from the micro controller. Two ADCs in parallel can be used
+to read the guitar signal, improving the bit depth (2x12bits). Furthermore, this arrange is
+also compatible with the
+["Double Span and Digitize Signals using Two ADCs"](http://www.electrosmash.com/forum/hardware-pedalshield/22-double-span-and-digitize-signals-using-two-adcs)
+by placing the Jumper1.
 
-* **Input Stage / Preamp:** The guitar signal is amplified for better acquisition by the first op-amp which follows the MicroAmp guitar pedal design. The trimmer VR1 adjusts the gain of this amplifier. There is also program which helps to automatically adjust this trimmer. The second inverting op-amp inverts the amplified signal to be applied to the ADC1. The Diodes D1, D2, D3, D4 are clamping diodes that protect the Arduino's ADC from signals above 3,3V and below 0V.
-* **The Output Stage:** Using a Differential amplifier (Gain=1) two DACs can be read in parallel improving the bit resolution (2x12bits). However, if a signal is generated at DAC0 and DAC1 is not used, the Differential amplifier behaves as a normal Buffer. The last op-amp is in a Summing configuration, adding the processed signal and the original one if the Mix Switch is ON. This stage is very convenient to implement some pedals like delay, flanger, chorus, metronome, etc..
-* **The Power Supply:** Generates ±5V to feed the operational amplifiers and achieve maximum signal swing without distortion.
+* **Input Stage / Preamp:** The guitar signal is amplified for better acquisition by the first
+op-amp which follows the MicroAmp guitar pedal design. The trimmer VR1 adjusts the gain of
+this amplifier. There is also program which helps to automatically adjust this trimmer. The
+second inverting op-amp inverts the amplified signal to be applied to the ADC1. The Diodes
+D1, D2, D3, D4 are clamping diodes that protect the Arduino's ADC from signals above 3,3V and
+below 0V.
+* **The Output Stage:** Using a Differential amplifier (Gain=1) two DACs can be read in parallel
+improving the bit resolution (2x12bits). However, if a signal is generated at DAC0 and DAC1 is
+not used, the Differential amplifier behaves as a normal Buffer. The last op-amp is in a Summing
+configuration, adding the processed signal and the original one if the Mix Switch is ON. This
+stage is very convenient to implement some pedals like delay, flanger, chorus, metronome, etc..
+* **The Power Supply:** Generates ±5V to feed the operational amplifiers and achieve maximum
+signal swing without distortion.
 * **User Interface:** Is composed by the configurable potentiometers, switches, footswitch and LED.
 * **Arduino Connectors:** 5 connectors link the shield with Arduino transferring the signals.
 
@@ -127,9 +160,12 @@ the micro controller. Two ADCs in parallel can be used to read the guitar signal
 
 There are 3 options in the [store](http://store.electrosmash.com/index.php?route=product/category&path=33):
 
-1. [Order only the PCB](http://store.electrosmash.com/index.php?route=product/product&product_id=50). It uses easy-to-find standard components and you can build the kit yourself. The bill of materials is public with all the references and the Mouser part numbers.
+1. [Order only the PCB](http://store.electrosmash.com/index.php?route=product/product&product_id=50).
+It uses easy-to-find standard components and you can build the kit yourself. The bill of materials
+is public with all the references and the Mouser part numbers.
 2. [Order the PCB + Transparent Plexiglas Cover](http://store.electrosmash.com/index.php?route=product/product&product_id=51).
-3. [Order the Full Kit](http://store.electrosmash.com/index.php?route=product/product&product_id=31): This kit includes the PCB, Cover and all the components to build pedalSHIELD at home.
+3. [Order the Full Kit](http://store.electrosmash.com/index.php?route=product/product&product_id=31):
+This kit includes the PCB, Cover and all the components to build pedalSHIELD at home.
 
 All the transactions are done though PayPal for maximum security.
 
@@ -141,7 +177,8 @@ If you have any questions, [contact us](http://www.electrosmash.com/contact).
 
 What is Arduino?
 
-* Arduino is a single-board micro controller to make using electronics in multidisciplinary projects more accessible. The hardware and software are open-source.
+* Arduino is a single-board micro controller to make using electronics in multidisciplinary
+projects more accessible. The hardware and software are open-source.
 
 Where can I buy Arduino Due board?
 
@@ -157,4 +194,5 @@ Is pedalSHIELD suitable for bass players?
 
 Can I plug headphones directly into pedalSHIELD?
 
-* No, pedalSHIELD is not an amplifier. It needs to be plugged into a guitar amplifier, or to a multieffects unit (Line 6 pods, etc..).
+* No, pedalSHIELD is not an amplifier. It needs to be plugged into a guitar amplifier, or
+to a multi effects unit (Line 6 pods, etc..).
