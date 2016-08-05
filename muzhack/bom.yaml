@@ -9,20 +9,20 @@ Capacitors:
     mouserUrl: https://eu.mouser.com/Search/ProductDetail.aspx?R=D271K20Y5PH63L6Rvirtualkey59420000virtualkey594-D271K20Y5PH63L6R
   -
     value: 0.1u
+    quantity: 6
     references: [C1, C4, C6, C7, C10, C11]
     mouserNo: 80-R82EC3100DQ70J
     manufacturerNo: R82EC3100DQ70J
     description: Film Capacitors .1uF 100volts 5%
     mouserUrl: https://eu.mouser.com/Search/ProductDetail.aspx?R=R82EC3100DQ70Jvirtualkey64600000virtualkey80-R82EC3100DQ70J
-    quantity: 6
   -
     value: 1u
+    quantity: 1
     references: [C13]
     mouserNo: 647-USR1H010MDD
     manufacturerNo: USR1H010MDD
     description: Aluminium Electrolytic Capacitors - Leaded 50volts 1uF 4x7 20% 1.5LS
     mouserUrl: https://eu.mouser.com/Search/ProductDetail.aspx?R=USR1H010MDDvirtualkey64700000virtualkey647-USR1H010MDD
-    quantity: 1
   -
     value: 4.7u
     references: [C3]
