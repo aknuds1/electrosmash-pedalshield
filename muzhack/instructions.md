@@ -6,44 +6,11 @@ This is a 5 step guide to build pedalSHIELD. With all the materials at hand it t
 
 ## Step 1 – Prepare the Materials.
 
-You need a solder iron, lead and cutting pliers. Additionally cutter, scissors and pliers are
+You need a soldering iron, lead and cutting pliers. Additionally cutter, scissors and pliers are
 convenient. The PCB has solder mask and plated holes, so it is very easy to solder with any
 15-30W cheap solder iron.
 
-Keep at hand the PCB plan and the Bill of Materials:
-
-### pedalSHIELD Bill of Materials
-
-|Value |Qty |References|
-|------|----|----------|
-|Capacitors|||
-|270p |5 |C2 C5 C8 C9 C12|
-|0.1u |6 |C1 C4 C6 C7 C10 C11|
-|1u |1 |C13|
-|4.7u |1 |C3|
-|10u |2 |C14 C15|
-|47uF |1 |C18|
-|Resistors|||
-|1K |2 |R3 R21|
-|4.7K |3 |R5 R9 R10|
-|50K |1 |R7|
-|100K |12 |R4 R6 R8 R11 R12 R13 R14 R15 R16 R17 R19 R20|
-|10M |2 |R1 R2|
-|500K |1 |RV1|
-|10K |3 |RV2 RV3 RV4|
-|Plastic Knobs |3 |RV2, RV3, RV4|
-|Others|||
-|1N5817 |4 |D1 D2 D3 D4|
-|LED |1 |D5|
-|SWITCH_3PDT |1 |SW1|
-|SWITCH_INV |2 |SW2 SW3|
-|Connectors|||
-|CONN_8pins |5 |CONN2 CONN3 CONN4 CONN5 CONN6|
-|JACKS |2 |JI, J2|
-|IC's|||
-|TL072 |2 |U1 U2|
-|TC1044 |1 |U3|
-|8PIN |SOCKETS |3 U1, U2, U3|
+Keep at hand the PCB plan and the Bill of Materials.
 
 ## Step 2 – Soldering Resistors and Diodes.
 
