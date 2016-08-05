@@ -25,28 +25,28 @@ Capacitors:
     mouserUrl: https://eu.mouser.com/Search/ProductDetail.aspx?R=USR1H010MDDvirtualkey64700000virtualkey647-USR1H010MDD
   -
     value: 4.7u
+    quantity: 1
     references: [C3]
     mouserNo: 667-ECE-A1HKA4R7
     manufacturerNo: ECE-A1HKA4R7
     description: Aluminium Electrolytic Capacitors - Leaded 4.7UF 50V MINI ALUM ELECT (KA)
     mouserUrl: https://eu.mouser.com/Search/ProductDetail.aspx?R=ECE-A1HKA4R7virtualkey66720000virtualkey667-ECE-A1HKA4R7
-    quantity: 1
   -
     value: 10u
+    quantity: 2
     references: [C14, C15]
     mouserNo: 667-ECE-A1HKA100B
     manufacturerNo: ECE-A1HKA100B
     description: Aluminium Electrolytic Capacitors - Leaded 10UF 50V MINI ALUM ELECT
     mouserUrl: https://eu.mouser.com/Search/ProductDetail.aspx?R=ECE-A1HKA100Bvirtualkey66720000virtualkey667-ECE-A1HKA100B
-    quantity: 2
   -
     value: 47uF
+    quantity: 1
     references: [C18]
     mouserNo: 140-REA470M1CBK0511P
     manufacturerNo: REA470M1CBK-0511P
     description: Aluminium Electrolytic Capacitors - Leaded 16V 47uF 20% 5x11 mm
     mouserUrl: https://eu.mouser.com/Search/ProductDetail.aspx?R=REA470M1CBK-0511Pvirtualkey21980000virtualkey140-REA470M1CBK0511P
-    quantity: 1
 Resistors:
   -
     value: 1K
@@ -58,12 +58,12 @@ Resistors:
     mouserUrl: https://eu.mouser.com/Search/ProductDetail.aspx?R=MF1%2f4DC1001Fvirtualkey66000000virtualkey660-MF1%2f4DC1001F
   -
     value: 4.7K
+    quantity: 3
     references: [R5, R9, R10]
     mouserNo: 660-MF1/4DCT52R4701F
     manufacturerNo: MF1/4DCT52R4701F
     description: Metal Film Resistors - Through Hole 1/4W 4.7K ohm 1%
     mouserUrl: https://eu.mouser.com/Search/ProductDetail.aspx?R=MF1%2f4DCT52R4701Fvirtualkey66000000virtualkey660-MF1%2f4DCT52R4701F
-    quantity: 3
   -
     value: 50K
     references: [R7]
