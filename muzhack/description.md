@@ -1,8 +1,8 @@
-# pedalSHIELD DUE Arduino Guitar Pedal.
+# pedalSHIELD Due Arduino Guitar Pedal.
 **Please note that this is an unofficial project page, the official one is
 [here](http://www.electrosmash.com/pedalshield).**
 
-pedalSHIELD DUE is a programmable Arduino Open Source & Open Hardware guitar pedal made for
+pedalSHIELD Due is a programmable Arduino Open Source & Open Hardware guitar pedal made for
 guitarists, hackers and programmers. Users can program their own effects in C/C++ or download
 ready effects from the [online library](http://www.electrosmash.com/forum/software-pedalshield).
 
@@ -186,7 +186,7 @@ Where can I buy Arduino Due board?
 
 Does pedalSHIELD work with all Arduino boards?
 
-* No, only with Arduino DUE.
+* No, only with Arduino Due.
 
 Is pedalSHIELD suitable for bass players?
 
